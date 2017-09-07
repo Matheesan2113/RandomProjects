@@ -6,3 +6,35 @@
 body.sign-in{
     background-color: aliceblue;
 }
+.container.SignIn{
+    margin-top: 8%;
+}
+.card.signInCard {
+    padding: 40px 0px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+img.SignInImage{
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+
+}
+form.SignInForm{
+    max-width: 300px;
+    margin:auto;
+}
+button.SignInBtn{
+    color:white;
+    background-color: #d64829;
+    width:100%;
+    margin-bottom:1.2rem;
+}
+a.createAccount{
+    font-size:1.2 rem;
+    text-align: center;
+    display:block;
+    margin-top: 15px;
+}

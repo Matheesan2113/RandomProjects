@@ -15,22 +15,37 @@
 
     <body class="sign-in">
 
-        <div class="container">
+        <div class="container SignIn">
             <div class="row">
                 <div class="col"></div>
-                <div class="col-8">
-                    <div class="card">
+                <div class="col-sm-12 col-md-8">
+                    <div class="card signInCard">
                         <div class="card-block">
-                            Log IN:
+                            <img src="assets/DevslopesLogo.png" class="img-fluid SignInImage">
+                            <form class="SignInForm">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="EmailInput" placeholder="Email">
+                                </div>
+                                <div class="form-group">                                   
+                                    <input type="password" class="form-control" id="PasswordInput" placeholder="Password">
+                                </div>
+                                <button type="button" class="btn SignInBtn btn-lg">Sign In</button>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox"> Remember Me<a href="#"> Need Help?</a>
+                                    </label>
+                                </div>
+                            </form>
                         </div>
                     </div> 
+                    <a href="#" class="createAccount"> Create New Account</a>
                 </div>
                 <div class="col"></div>
             </div>
         </div>
 
 
-<!-- @11:40-->
+        <!-- @11:40-->
 
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
