@@ -2,3 +2,55 @@
     text-align: center;
     background:none;
 }
+
+.sectionLight{
+    background-color: white;
+    padding:2rem;
+}
+.sectionDark{
+    background-color: #cccccc;
+    padding: 2rem;
+}
+.coolstuffWrapper{
+    margin-top: 20px;
+}
+button.coolstuffbtn{
+    background-color: lightblue;
+    display:block;
+    margin:auto;
+}
+h5.modal-title{
+    margin:auto;
+}
+.modalFormWrapper{
+    padding: 2rem;
+}
+.imgCenter{
+    margin:auto;
+    display:block;
+}
+.btnCenter{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width:54%;
+}
+.footerImg{
+    padding:15px;
+}
+.fa{
+    margin:10px;
+}
+.fa-facebook-square{
+    color: #3b5998;
+}
+.fa-google-plus-square{
+ color:#c32f10;   
+}
+.fa-instagram{
+    color:white;
+}
+.socialWrapper{
+    margin:auto;
+}
