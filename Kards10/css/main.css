@@ -658,7 +658,7 @@ input[type="button"] {
 	letter-spacing: .3rem;
 	height: 5.4rem;
 	line-height: 5.4rem;
-	padding: 0 3rem;
+	padding: 0 2rem;
 	margin: 0 .3rem 1.2rem 0;
 	background: #d8d8d8;
 	color: #313131;
@@ -1558,7 +1558,7 @@ header .logo a {
 	text-align: center;
 }
 .button-section .button {
-	width: 250px;
+	width: 275px;
 }
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
