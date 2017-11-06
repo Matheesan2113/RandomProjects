@@ -1590,7 +1590,7 @@ header .logo a {
 		margin-bottom: 4.2rem;
 	}
 	.button-section .button {
-		width: 100%;
+		width: 60%;
 		margin-bottom: 3rem;
 	}
 	.button-section [class*="col-"] .button:first-child {
@@ -2189,9 +2189,6 @@ header .logo a {
 	padding-bottom: 6rem;
 	text-align: center;
 }
-#stats .row {
-	max-width: 1440px;
-}
 #stats .stat {
 	border-left: 1px solid rgba(255, 255, 255, 0.12);
 	min-height: 17.4rem;
@@ -2599,10 +2596,6 @@ footer .copyright span:last-child::after {
 
 /*# sourceMappingURL=main.css.map */
 
-.test1 {
-    position: relative !important;
-    left: 226px !important;
-}
 .test2{
         position: relative !important;
     left: 110px !important;

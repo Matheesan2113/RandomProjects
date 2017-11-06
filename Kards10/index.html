@@ -19,7 +19,8 @@
    <link rel="stylesheet" href="css/base.css">  
    <link rel="stylesheet" href="css/main.css">
    <link rel="stylesheet" href="css/vendor.css">     
-
+   <!--<link rel="stylesheet" href="css/boot-css/bootstrap-grid.min.css">
+   <link rel="stylesheet" href="css/boot-css/bootstrap.min.css">
    <!-- script
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
@@ -47,7 +48,6 @@
 						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
 						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>					
 						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
-						<li><a href="styles.html" title="">Style Demo</a></li>	
 					</ul>
 				</nav>    		
    		</div> <!-- /top-bar --> 
@@ -182,7 +182,6 @@
    	<div class="row button-section">
    		<div class="col-twelve">
    			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-   			<a href="MATHEESANRESUME2017%20LONG.pdf" target="_blank" title="Download Resume" class="button button-primary">View Resume(PDF) </a>
    		</div>   		
    	</div>
 
@@ -190,7 +189,7 @@
 
 
    <!-- resume Section
-   ================================================== -->
+   =================================================== -->
 	<section id="resume" class="grey-section">
 
 		<div class="row section-intro">
@@ -306,7 +305,12 @@
 	   			</div> <!-- /timeline-block -->
 
    			</div> <!-- /timeline-wrap -->   			
-
+            <div class="row button-section">
+   		<div class="col-twelve">
+   		 <a href="MATHEESANRESUME2017%20LONG.pdf" target="_blank" title="Download Resume" class="button button-primary">View Resume(PDF) </a>
+   		</div>   		
+   	</div>
+           
    		</div> <!-- /col-twelve -->
    		
    	</div> <!-- /resume-timeline -->
@@ -315,7 +319,7 @@
 
 
 	<!-- Portfolio Section
-   ================================================== -->
+   =================================================== -->
 	<section id="portfolio">
 
 		<div class="row section-intro">
@@ -336,10 +340,11 @@
    			<!-- portfolio-wrapper -->
 	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
-	         	<div class="bgrid folio-item test1" style="left: 226px !important; top:0px;">
+	         	<div class="bgrid folio-item" style=" top:0px;float: right">
+                    <div style="width:333px;float: right !important">
 	               <div class="item-wrap">
 	               	<img src="images/benign.png" alt="Skin Cancer Detection App">
-	                  <a href="#modal-01" class="overlay" style="width: 60%">	                  	           
+	                  <a href="#modal-01" class="overlay" style="width: 342px;left: auto;right: 0px">	                  	           
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
 		     					       <h3 class="folio-title">Benign</h3>	     					    
@@ -349,7 +354,8 @@
 		     					   </div>	                      	
 	                     </div>                    
 	                  </a>
-	               </div>	               
+	               </div>
+                        </div>
 	        		</div> <!-- /folio-item -->
 
 	        		<div class="bgrid folio-item">
@@ -387,7 +393,7 @@
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/M.png" alt="Beetle">
-	                  <a href="#modal-04" class="overlay" style="width:75%">                  	                 
+	                  <a href="#modal-04" class="overlay" style="width:100%">                  	                 
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
 	                     		<h3 class="folio-title">My Chatbot</h3>	     					    
@@ -401,7 +407,7 @@
 	        		</div> <!-- /folio-item -->     
 
 	            <!-- modal popups - begin
-	            ============================================================= -->
+	            =========================================================== -->
 	            <div id="modal-01" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
@@ -476,30 +482,32 @@
 					   </div>
 
 			         <div class="link-box">
-			            <a href="https://github.com/Matheesan2113/ChatBot" target="_blank">Project Link</a>
+			            <a href="https://github.com/Matheesan2113/ChatBot" target="_blank" >Project Link</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div> <!-- /modal-04 -->
 
 				   <!-- modal popups - end
-	            ============================================================= -->
+	            ========================================================= -->
 
 	         </div> <!-- /portfolio-wrapper --> 
 
    		</div>  <!-- /twelve -->   
 
    	</div> <!-- /portfolio-content --> 
-		   	<div class="row button-section">
+		   	<div class="row button-section" style ="padding-top: 50px">
    		<div class="col-twelve">
-   			<a href="https://github.com/Matheesan2113" style="margin-top: 25px;margin-left: 48px" target="_blank" title="Github" class="button stroke smoothscroll">Check out my Github!</a>
+   		<form action="https://github.com/Matheesan2113" method="get" target="_blank">
+<button type="submit" value="Github" onclick="window.location.href='https://github.com/Matheesan2113'" formtarget="_blank" />Github is Here
+</form>
    		</div>   		
    	</div>
 	</section> <!-- /portfolio --> 
 
     
    <!-- contact
-   ================================================== --><!--
+   =================================================== --><!--
 	<section id="contact">
 
 		<div class="row section-intro">
@@ -559,7 +567,7 @@
          </div> <!-- /col-twelve 
    		
    	</div> <!-- /contact-form -->
-<section><!--remove this <-- later -->
+<section id="contact"><!--remove this <-- later -->
    	<div class="row contact-info">
 
    		<div class="col-four tab-full">
@@ -647,6 +655,7 @@
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
+   <!--<script src="js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
 
 </body>
 
