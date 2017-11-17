@@ -1,0 +1,17 @@
+{
+    "manifest_version" : 2,
+    "name": "Wikit",
+    "version": "1.0",
+    "author": "MatheesanM.",
+    "description" : "Wikipedia anything right clikc only.",
+    "icons": {
+        "128":"icon128.png",
+        "48":"icon48.png",
+        "16": "icon16.png"
+    },
+    "background":{
+        "scripts":["eventPage.js"],
+        "persistent": false
+    },
+    "permissions":["tabs","contextMenus"]
+}
